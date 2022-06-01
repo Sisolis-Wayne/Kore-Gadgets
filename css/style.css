@@ -1,0 +1,27 @@
+body::before {
+    display: block;
+    content: '';
+    height: 38px;
+}
+
+.hero {
+    min-height: 50vh;
+}
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+#carouselSlides {
+    position: absolute;
+    z-index: -1;
+}
+
+@media (max-width: 904px) {
+    .hero {
+        background: url(../images/Gadgets.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+}
